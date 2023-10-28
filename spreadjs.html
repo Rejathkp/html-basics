@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread opreator</title>
+</head>
+<body>
+    <script>
+        // const ar1 = ["one","two"];
+        // const ar2 = [...ar1,"three","four"];
+        // console.log(ar2);
+        // ar1.push("five")
+        // console.log(ar1);
+        // console.log(ar2);
+
+        const ob= {
+            name :"honda",
+            brand: "dads",
+            color : "green"
+        }
+        const ob2= {
+            year : "2000",
+            price: "1000000",
+            color : "blue",
+        }
+        const ar3 = {...ob,...ob2}
+        console.log()
+    </script>
+</body>
+</html>

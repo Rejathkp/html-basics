@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLYMORPHISM</title>
+</head>
+<body>
+    <script>
+        class student
+        {
+            show()
+            {
+                document.write("Welcome");
+            }
+        }
+        class detail extends student
+        {
+            show()
+            {
+                document.write("Bye");
+            }
+        }
+        var a= new student();
+        var b=new detail();
+        a.show();
+        b.show();
+    </script>
+</body>
+</html>

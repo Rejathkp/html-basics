@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rest</title>
+</head>
+<body>
+    <script>
+        // function sample(a,b,...rest){
+        //     console.log(a,b,...rest)
+        // }
+        // sample(11,22,33,44)
+
+        function sample(a,b,...rest){
+            console.log(a,b,...rest)
+            console.log(a,b,rest)
+        }
+        sample(11,22,33,44)
+
+        // function sample(...rest){
+        //     console.log(...rest)
+        //     console.log(rest)
+        // }
+        // sample(11,22,33,44)
+    </script>
+</body>
+</html>

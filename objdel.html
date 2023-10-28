@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class work
+        {
+            constructor(id,name,cls)
+            {
+                this.id=id;
+                this.name=name;
+                this.cls=cls;
+            }
+
+            detail()
+            {
+                document.write(this.id+"<br> "+this.name+"<br>"+this.cls+"<br>");
+            }
+        }
+        var w1=new work(123,"Anandu",10);
+        w1.detail();
+        delete w1.cls;
+        w1.detail();
+
+    </script>
+</body>
+</html>

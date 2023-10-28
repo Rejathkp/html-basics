@@ -1,0 +1,16 @@
+body{
+    background-image: url("solo-leveling-thumb.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 25px;
+    color: blue;
+    text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    border-style: dashed double dotted solid;
+    border-color: red green cyan orange;
+
+}
